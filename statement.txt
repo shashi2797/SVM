@@ -1,0 +1,27 @@
+1) Prepare a classification model using SVM for salary data 
+
+
+
+
+ans:for model1(vanilladot);
+ mean(pre_vanilla==sal_test$Salary)
+84.64%
+
+
+for model2(rfdot);
+mean(pre_rfdot==sal_test$Salary)
+85.19%
+
+
+2) Classify SizeCategorie of the burned area of the forest ( Small , Large)
+
+ans:
+for vanilladot model , 72%true
+pred_area large small
+    large     1     0
+    small   101   260 
+
+for rbfdot model, 73.7%true
+pred_rfdot large small
+     large     8     1
+     small    94   259
